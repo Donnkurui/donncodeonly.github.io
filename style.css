@@ -1,0 +1,169 @@
+ 
+ {
+ 	padding: 0;
+ 	margin: 0;
+ }
+ .img
+{
+	height: 300px;
+	width: 1300px;
+}
+ body
+ {
+ 	background-image: url(tonny.jpeg);
+ 	background-size:cover;
+ 	background-position: center;
+ 	box-sizing: border-box;
+ 	font-family: sans-serif;
+ }
+ .box{
+ 	border: 2px solid black;
+ 	padding: 10px
+ 	background-color black;
+ 	box-shadow: 29px 29px 29px;
+ }
+ .wrapper 
+ {
+ 	background-image: url(img/logoo.png);
+ 	height: 500;
+ 	width: 1300px; 
+ }
+ .wrapper h1{
+ 	color: #fff;
+	line-height: 95%;
+	font-family: sans-serif;
+	text-align: center;
+
+ }
+ .wrapper ul li 
+ {
+ 	background: rgb(50,50,50);
+ 	text-align: center;
+ 	opacity: 1.7;
+ 	background-color:  rgb(90,20,10);
+ 	padding: 0.7rem 1rem;
+	color: #fff;
+	border: none;
+	border-radius:10px;
+ }
+ .wrapper ul li a{
+
+ 	text-decoration: none;
+ 	color: white;
+ }
+ .wrapper ul 
+ {
+display: inline-flex;
+list-style: none;
+color: #fff;
+ }
+ .wrapper ul li
+ {
+ 	width: 100px;
+ 	margin: 15px;
+ 	padding: 15px;
+ }
+ .wrapper ul li 
+ {
+ 	
+ 	color: #fff;
+ }
+ .active, .wrapper ul : hover
+{
+background :#2bab0d;
+border-radius: 3px;
+}
+
+
+}
+.wrapper ul li: hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background-color: rgb(0,100,0);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.wrapper ul li: hover .sub-menu-1 ul
+{
+	display: block;
+	margin: 10px;
+}
+.wrapper ul li: hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding:10px;
+	border-bottom:1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+
+}
+.section{
+	background-image: url(img/tonny.jpg);
+ 	height: auto;
+ 	width: 1300px;
+}
+.section{
+	
+	overflow: hidden;
+	margin-top: 4%
+}
+.section h1{
+	color: #fff;
+	line-height: 95%;
+}
+.section p{
+	color: black;
+
+}
+.btn-1{
+	background-color: orangered;
+	padding: 0.7rem 1rem;
+	color: #fff;
+	border: none;
+	border-radius:10px; 
+}
+.features{
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+.features button{
+	padding: 0.7rem 2rem;
+	margin-right: 2rem;
+	font-size: 1.2rem;
+	opacity: 0.7;
+}
+.showcase {
+	list-style-type: initial;
+}
+.showcase h1{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+}#Courses{
+	display: flex;
+	text-align: center;
+}
+#Courses img{
+	width: 250px;
+	border-radius: 10px;
+	border: 2px solid #000;
+}.Apply{
+	margin-top: 4%;
+	background-color: orangered;
+	padding: 0.7rem 1rem;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+}
+footer{
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 1.2rem;
+	margin-top: 4%;
+}
+.sign-up-form{
+	background: url(web/3.jpg);
+}
